@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>GAYATRI VIDYALAYA</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="script" href="script.js">
+    </head>
+<body class="background">
+    <nav>
+        <div class="logo">
+            <a herf="index.html"><img src="c:\Users\Soham\Desktop\Mini project\school logo png.png" alt="School Logo" width="350px"></a>
+        </div>
+        <div class="links">
+        <a href="#aboutus">About Us</a>
+        <a href="#admission">Admission</a>
+        <a href="#academics">Academics</a>
+        <a href="#activities">Activities</a>
+        </div>
+        <div class="login">
+            <img class="profile" src="c:\Users\Soham\Desktop\Mini project\Profilepic.png">
+        </div>
+    </nav>
+    <div class="marquee">
+        <p>SCHOOL MOTTO SCHOOL MOTTO SCHOOL MOTTO SCHOOL MOTTO</p>
+    </div>
+    <div class="slider-box">
+        <div id="slider-images">
+            <img src="c:\Users\Soham\Desktop\Mini project\school pic 2.jpg" alt="Image 2">
+            <img src="c:\Users\Soham\Desktop\Mini project\school pic 5.jpg" alt="Image 1"> 
+            <img src="c:\Users\Soham\Desktop\Mini project\school pic 4.jpg" alt="Image 4">
+            <img src="c:\Users\Soham\Desktop\Mini project\school pic 6.jpg" alt="Image 5">
+            <img src="c:\Users\Soham\Desktop\Mini project\school pic 3.jpeg" alt="Image 3">
+                
+        </div>
+        <div id="slider-buttons">
+            <span id="slider-button1"></span>
+            <span id="slider-button2"></span>
+            <span id="slider-button3"></span>
+            <span id="slider-button4"></span>            
+        </div>   
+            <script>
+                var slide = document.getElementById("slider-images");
+                var button1 = document.getElementById("slider-button1");
+                var button2 = document.getElementById("slider-button2");
+                var button3 = document.getElementById("slider-button3");
+                var button4 = document.getElementById("slider-button4");
+
+                button1.onclick = function(){
+                slide.style.transform = "translateX(0%)";
+                button1.style.backgroundColor = "white";
+                button2.style.backgroundColor = "rgba(255, 255, 255, 0.5)";
+                button3.style.backgroundColor = "rgba(255, 255, 255, 0.5)";
+                button4.style.backgroundColor = "rgba(255, 255, 255, 0.5)";
+                }
+                button2.onclick = function(){
+                slide.style.transform = "translateX(-100%)";
+                button1.style.backgroundColor = "rgba(255, 255, 255, 0.5)";
+                button2.style.backgroundColor = "white";
+                button3.style.backgroundColor = "rgba(255, 255, 255, 0.5)";
+                button4.style.backgroundColor = "rgba(255, 255, 255, 0.5)";
+                }
+
+                button3.onclick = function(){
+                    slide.style.transform = "translateX(-200%)";
+                    button1.style.backgroundColor = "rgba(255, 255, 255, 0.5)";
+                    button2.style.backgroundColor = "rgba(255, 255, 255, 0.5)";               
+                    button3.style.backgroundColor = "white";
+                    button4.style.backgroundColor = "rgba(255, 255, 255, 0.5)";
+                }
+
+                button4.onclick = function(){
+                    slide.style.transform = "translateX(-300%)";
+                    button1.style.backgroundColor = "rgba(255, 255, 255, 0.5)";
+                    button2.style.backgroundColor = "rgba(255, 255, 255, 0.5)";
+                    button3.style.backgroundColor = "rgba(255, 255, 255, 0.5)";    
+                    button4.style.backgroundColor = "white";
+                    
+                }
+            </script>            
+        </div>
+        <div class="divs">
+            <div class="trustee-pic">
+                <img src="c:\Users\Soham\Desktop\Mini project\school logo.jpg" alt="Missions">
+                <h2>TRUSTEE NAME</h2>
+                <p>Our mission is to provide a quality education to all students.</p>
+            </div>
+            <div class="missions">
+                <h2>MISSIONS</h2>
+                <p>
+                    <ul>
+                        <li>
+                            We provide an environment which is orderly, safe, inviting and stimulating.
+                        </li>
+                        <li>
+                            Each student experiences success, feels cared for and positive about their involvement with Greenfield Public School.
+                        </li>
+                        <li>
+                            Our parental community feels welcomed and valued as full participants in their child’s education.
+                        </li>
+                        <li>
+                            The leadership is supportive, encouraging, and fosters positive changes.
+                        </li>
+                        <li>
+                            The staff works and shares as a collaborative team.
+                        </li>
+                        <li>
+                            Teachers are motivated, enthusiastic, and experience continued professional 
+                        </li>
+                    </ul>
+                </p>
+            </div>
+            <div class="vision">
+                <h2>VISION</h2>
+                <p>
+                    <ul class="vision-para">
+                        <li>
+                            To provide a safe and homelike atmosphere for children.
+                        </li>
+                        <li>
+                            To teach students the important values of life like honesty, humility and humanity.
+                        </li>
+                        <li>
+                            To teach children to respect parents, teachers and all elders.
+                        </li>
+                        <li>
+                            To instil cultural values and patriotism.
+                        </li>
+                        <li>
+                            To dream big and strive to achieve their highest potential.
+                        </li>                       
+                    </ul>
+                </p>
+            </div>
+            <div class="principals-desk">
+                <img src="c:\Users\Soham\Desktop\Mini project\school logo.jpg" alt="Principal's pic">
+                <h2>Principal's Desk</h2>
+                <p>Welcome to our school! As the principal, I am committed to providing a safe and nurturing environment for all students.</p>
+                <p>"Flowers leave part of their fragrance in the hand that bestows them." The mind is not a vessel to be filled but a fire to be kindled. I appreciate the staff and students of all faculties who use various modes of expansion to present their ideas. As long as our ideas are expressed and thoughts kindled, we can be sure of learning as everything begins with an idea. Just as our mother earth gives us more and more, Learning is not a process limited to schools and colleges only, nor does it end with the conclusion of one's school career. It is indeed a lifelong process. The school is oriented to the total formation of a child and to adaptations of various methods suiting the dynamics of changing world in order to achieve common goals and objectives. It is further characterized by sharing vision, responsibility and above all love and faith in goal in order to achieve it. We live today in a world that is very different from the one we grew up, in the one we were educated in. The world today is changing at such an accelerated rate where we as educators need to pause and reflect on this entire system of education. Our school is well equipped to prepare our children to face the challenges that the future holds and work at implementing a well-balanced curriculum to ensure that the children who walk into the portals of VPS will not just leave their school years but truly be prepared to face life's challenges. Even as we impart education to match the advancement in technology and globalization, we march our children ahead with ethos of moral values and principles. We endeavor constantly to instill these qualities in our children. We pride ourselves to help them grow and develop into sensitive and responsible citizens of the future. Aristotle once said that, "Educating the mind without educating the heart is no education at all". Principal’s Name (Principal).</p>
+            </div>
+    </div>
+    <footer>
+    <div class="footer-left">
+        <h3>Contact Us</h3>
+        <p>Gunjal compound Kolsewadi Kalyan (E) 421306</p>
+        <p>+91 9505654024/+91 9040610155</p>
+        <p>Gayatrividyalaya@gmail.com</p>
+    </div>
+    <div class="footer-centre">
+        <h3>Social Media Links</h3>
+        <a href="#">Facebook</a></br>
+        <a href="#">Instagram</a></br>            
+        <a href="#">Twitter</a></br>
+        <a href="#">Youtube</a></br>               
+    </div>
+    <div class="footer-right">      
+        <div class="contact-form">
+            <h3>Connect With Us</h3>
+            <form>
+                <input class="input-name" type="text" name="name" placeholder="Name">
+                <input class="input-phone" type="text" name="phone" placeholder="Phone Number">
+                <input class="input-email" type="email" name="email" placeholder="Email Address">
+                <input class="input-subject" type="text" name="subject" placeholder="Subject">
+                <textarea class="input-message" name="message" placeholder="Message"></textarea>
+                <button class="submit-button" type="submit">Send Message</button>
+            </form>
+        </div>
+    </div>
+    </footer>
+</body>
+</html>

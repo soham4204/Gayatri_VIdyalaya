@@ -1,0 +1,222 @@
+html {
+    font-size: 100%;
+}
+body {
+    font-family: acumin-pro, system-ui, sans-serif;
+}
+footer{
+    font-family: acumin-pro, system-ui, sans-serif;
+}
+.background{
+    background-color: #F5EFE7;
+}
+.header{
+    min-height: 15vh;
+    width: 100%;
+}
+nav{
+    display: flex;
+    padding: 1% 1%;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: 350px;
+    padding-left: 1%;
+}
+.nav-links{
+    flex: 1;
+    text-align: center;    
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 12px;
+    background-color: #D9D9D9;
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 14px;
+    background: black;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+    width: 100%
+}
+.profile{
+    width: 80px;
+    align-items: end;
+}
+.textbox{
+    min-height: 8vh;
+    width:98%
+    display flex; 
+    background-color: #1D5D9B;    
+}
+.marquee{
+    size: 30px;
+    margin-top:2px;
+    padding-top: 15px;;
+    font-family: 'Tiro Devanagari Sanskrit', serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.school-pic{
+    padding-top: 8px;
+    width: 100%
+}
+.missions{
+    height: 63vh;
+    width: 100%;
+    background-color: #1D5D9B;
+    display: flex;
+    float: left;
+    margin-top: 5px;
+    justify-content: space-between;
+}
+.mission-heading{
+    padding-left: 25px;
+    padding-top: 10px;
+    color: white;
+}
+.missions-para{
+    color: white;
+    justify-content: left;
+    align-items: left;
+}
+.trustee-pfp{
+    float: right;
+    height: 300px;
+    width: 300px;
+    padding: 35px;
+    background-color: #D9D9D9;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.trustee-name{
+    height: 450px
+
+}
+.trustee-name-text{
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    padding-left: 15%;
+    background-color: #D9D9D9;
+    margin-right: 10px;
+}
+.vision{
+    height: 30vh;
+    width: 100%;
+    background-color: #1D5D9B;
+    float: left;
+    margin-top: 10px;
+}
+.vision-heading{
+    color: white;
+    padding-left: 25px;
+    padding-top: 10px;
+    height: 2vh;
+}
+.vision-para{
+    color: white;
+    justify-content: left;
+    align-items: left;
+    padding-top: 15px;
+}
+.principal-pic{
+    float: left;
+    height: 300px;
+    width: 300px;
+    padding: 35px;
+    background-color: #D9D9D9;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding-bottom: 100px;
+}
+.principals-desk{
+    height: 460px;
+    width: 100%;
+    background-color: #1D5D9B;
+    margin-top: 10px;
+    float: left;
+}
+.principal-pfp{
+    float: left;
+    height: 300px;
+    width: 300px;
+    background-color: #D9D9D9;
+    margin-top: 10px;
+    padding-bottom: 35px;
+}
+.principal-name-text{
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    padding-left: 40px;
+    background-color: #D9D9D9;   
+}
+.principals-desk-para{
+    color: white;
+    padding: 10px;
+    padding-left: 390px;
+    justify-content: left;
+}
+.footer{
+    float: left;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #213555;
+    height: 300px;
+    width: 100%;
+    color: #fff;
+}
+
+.footer-content{
+    height: 300px;
+    width:auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+    color: #cacdd2;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.socials ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;    
+}
+.socials ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px;
+}
+
+
